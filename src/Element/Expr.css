@@ -1,0 +1,20 @@
+.container {
+    position: relative;
+}
+
+.highlighted {
+    background-color: rgb(205, 175, 233);
+    border: 1px solid black;
+  }
+
+
+.delete-button {
+    position: absolute;
+    left: 90%;
+    top: 0;
+    background-color: rgb(107, 42, 168);
+    color: #fff;
+    width: 20px;
+    text-align: center;
+    font-size: 15px;
+}

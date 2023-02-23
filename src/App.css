@@ -1,0 +1,30 @@
+.formulizer {
+  padding: 16px;
+}
+.visualizerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.formula {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid blue;
+  margin:10px;
+  padding: 5px 10px;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fcfafa;
+}
+
+.variable{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid blue;
+  margin:10px;
+  padding: 5px 10px;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #97a6e9;
+}
