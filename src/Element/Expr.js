@@ -5,7 +5,7 @@ const Element = ({ id, processExpr, updateSyntaxTree }) => {
     const [deleteExpr, SetDeleteExpr] = useState(false);
     const [isHighlighted, setIsHighlighted] = useState(false);
     const [showDeleteButton, setShowDeleteButton] = useState(false);
-  //Add functionality for delete dv highlight when hovered
+  //delete button to become visible when hovered
     const handleMouseEnter = (e) => {
         setShowDeleteButton(true);
         setIsHighlighted(true);
