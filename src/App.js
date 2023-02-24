@@ -56,6 +56,7 @@ function App() {
             let args = tree.arguments;
             for(let i=0;i<args.length;i++){
               idPath = idPath + '.arguments[' + i + ']';
+            // let nameValue = tree.name =="SQRT" ? '^2' : '^3'; to handle the function name substitution
           return <div className='formula' id={idPath}>{tree.name + '(' }  {generateFormula(tree.arguments[i], idPath)} {')'}</div>;
             }
       case 'ADDITION': //left and right operations
