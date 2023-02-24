@@ -56,7 +56,7 @@ function App() {
             let args = tree.arguments;
             for(let i=0;i<args.length;i++){
               idPath = idPath + '.arguments[' + i + ']';
-          return <div className='formula' id={idPath}>{tree.name + '(' }  {generateFormula(tree.arguments[0], idPath)} {')'}</div>;
+          return <div className='formula' id={idPath}>{tree.name + '(' }  {generateFormula(tree.arguments[i], idPath)} {')'}</div>;
             }
       case 'ADDITION': //left and right operations
         let idAddPath = idPath;
